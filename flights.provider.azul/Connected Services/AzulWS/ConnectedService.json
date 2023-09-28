@@ -1,0 +1,40 @@
+﻿{
+  "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
+  "Version": "15.0.40203.910",
+  "ExtendedData": {
+    "inputs": [
+      "https://webservices.voeazul.com.br/AzulWS/AzulServices.svc?wsdl"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, AzulWS"
+    ],
+    "references": [
+      "AutoMapper, {AutoMapper, 10.1.1}",
+      "AutoMapper.Extensions.Microsoft.DependencyInjection, {AutoMapper.Extensions.Microsoft.DependencyInjection, 8.1.0}",
+      "C:\\workspace\\__FLIGTHS\\api-flights\\flights.provider.azul\\bin\\Debug\\netcoreapp3.1\\flights.application.dll",
+      "C:\\workspace\\__FLIGTHS\\api-flights\\flights.provider.azul\\bin\\Debug\\netcoreapp3.1\\flights.crosscutting.dll",
+      "C:\\workspace\\__FLIGTHS\\api-flights\\flights.provider.azul\\bin\\Debug\\netcoreapp3.1\\flights.domain.dll",
+      "Microsoft.Extensions.DependencyInjection.Abstractions, {Microsoft.Extensions.DependencyInjection.Abstractions, 3.0.0}",
+      "Microsoft.Extensions.Options, {Microsoft.Extensions.Options, 3.0.0}",
+      "Microsoft.Extensions.Primitives, {Microsoft.Extensions.Primitives, 3.0.0}",
+      "Microsoft.IdentityModel.JsonWebTokens, {Microsoft.IdentityModel.JsonWebTokens, 6.8.0}",
+      "Microsoft.IdentityModel.Logging, {Microsoft.IdentityModel.Logging, 6.8.0}",
+      "Microsoft.IdentityModel.Tokens, {Microsoft.IdentityModel.Tokens, 6.8.0}",
+      "System.IdentityModel.Tokens.Jwt, {System.IdentityModel.Tokens.Jwt, 6.8.0}",
+      "System.Security.Cryptography.Cng, {System.Security.Cryptography.Cng, 4.5.0}",
+      "System.ServiceModel, {System.ServiceModel.Primitives, 4.4.4}",
+      "System.ServiceModel.Duplex, {System.ServiceModel.Duplex, 4.4.4}",
+      "System.ServiceModel.Http, {System.ServiceModel.Http, 4.4.4}",
+      "System.ServiceModel.NetTcp, {System.ServiceModel.NetTcp, 4.4.4}",
+      "System.ServiceModel.Primitives, {System.ServiceModel.Primitives, 4.4.4}",
+      "System.ServiceModel.Security, {System.ServiceModel.Security, 4.4.4}"
+    ],
+    "sync": true,
+    "targetFramework": "netcoreapp3.1",
+    "typeReuseMode": "All"
+  }
+}
